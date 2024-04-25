@@ -1,14 +1,16 @@
 ﻿@model Category
 
-<form>
+<form method="post">
     <h1>Create Category</h1>
     <div class="form-group">
         <label asp-for="Name"></label>
         <input class="form-control" asp-for="Name" placeholder="Category Name">
+        <span asp-validation-for="Name" class="text-danger"> </span>
     </div>
     <div class="form-group mt-3">
-        <label for="exampleInputPassword1">Display Order</label>
+        <label asp-for="DisplayOrder">Display Order</label>
         <input  class="form-control" asp-for="DisplayOrder" placeholder="Display Order">
+        <span asp-validation-for="DisplayOrder" class="text-danger"> </span>
     </div>
 
 
