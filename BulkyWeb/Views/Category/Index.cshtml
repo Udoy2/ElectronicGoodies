@@ -1,0 +1,35 @@
+﻿@model List<Category>
+'
+<div class="container">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h1>Category list</h1>
+
+        </div>
+        <div class="col-6">
+            <a class="btn btn-dark float-end" asp-controller="Category" asp-action="Create">create a new category</a>
+        </div>
+
+    </div>
+</div>
+<table class="table table-bordered table-stripeed">
+    <thead>
+
+    <tr>
+        <th>
+            Category Name
+        </th>
+        <th>
+                Display Order 
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach(var obj in Model)
+        {
+            <tr>
+                <td>@obj.Name</td>
+                <td>@obj.DisplayOrder</td>
+            </tr>
+        }
+    </table>
