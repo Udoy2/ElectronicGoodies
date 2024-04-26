@@ -2,7 +2,7 @@
 
 <div class="container mt-3">
     <form method="post">
-        <h1>Create Category</h1>
+        <h1>Edit Category</h1>
         <div class="form-group">
             <label asp-for="Name"></label>
             <input class="form-control" asp-for="Name" placeholder="Category Name">
@@ -17,7 +17,7 @@
         <div class="row mt-3">
             <div class="col-6">
 
-                <button type="submit" class="btn btn-dark mt-2 w-100">Submit</button>
+                <button type="submit" class="btn btn-dark mt-2 w-100">Update</button>
             </div>
             <div class="col-6">
                 <a class="btn btn-outline-dark mt-2 w-100" asp-controller="Category" asp-action="Index"> Back </a>
@@ -28,7 +28,7 @@
     </form>
 </div>
 
-@section Scripts{
+@section Scripts {
     @{
         <partial name="_ValidationScriptsPartial" />
     }

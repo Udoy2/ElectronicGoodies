@@ -15,21 +15,27 @@
 <table class="table table-bordered table-stripeed">
     <thead>
 
-    <tr>
-        <th>
-            Category Name
-        </th>
-        <th>
-                Display Order 
-        </th>
-    </tr>
+        <tr>
+            <th>
+                Category Name
+            </th>
+            <th>
+                Display Order
+            </th>
+            <th>
+                Edit/Delete
+            </th>
+        </tr>
     </thead>
     <tbody>
-        @foreach(var obj in Model)
+        @foreach (var obj in Model)
         {
             <tr>
                 <td>@obj.Name</td>
                 <td>@obj.DisplayOrder</td>
+                <td><a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-primary ">Edit</a>
+                    <a asp-controller="Category" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger ">Delete</a>
+                </td>
             </tr>
         }
-    </table>
+</table>
