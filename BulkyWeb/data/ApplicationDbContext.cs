@@ -16,7 +16,7 @@ namespace BulkyWeb.data
                 new Category { Id = 1, Name = "Action", DisplayOrder = 0 },
                 new Category { Id = 2, Name = "Scifi", DisplayOrder = 1 },
                 new Category { Id = 3, Name = "History", DisplayOrder = 2 }
-                );
+            );
         }
     }
 }
