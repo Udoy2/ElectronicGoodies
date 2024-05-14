@@ -1,6 +1,6 @@
 ﻿using Electronics.DataAccess.Repository.IRepository;
 using BulkyBook.DataAcess.Data;
-using BulkyBook.Models;
+using Electronics.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

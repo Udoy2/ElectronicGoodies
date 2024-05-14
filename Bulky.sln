@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectronicsWeb", "BulkyWeb\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Electronics.DataAccess", "Bulky.DataAccess\Electronics.DataAccess.csproj", "{8E222D6C-F754-425E-A116-8142B42A0392}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyBook.Models", "Bulky.Models\BulkyBook.Models.csproj", "{A07E25D8-385A-4A02-91A1-3E7386101291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Electronics.Models", "Bulky.Models\Electronics.Models.csproj", "{A07E25D8-385A-4A02-91A1-3E7386101291}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Electronics.Utility", "Bulky.Utility\Electronics.Utility.csproj", "{501F23EF-74DB-49BC-A3BC-E992B652D8CA}"
 EndProject

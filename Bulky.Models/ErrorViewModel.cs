@@ -1,4 +1,4 @@
-namespace BulkyBook.Models
+namespace Electronics.Models
 {
     public class ErrorViewModel
     {

@@ -11,7 +11,7 @@ using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
 using Electronics.DataAccess.Repository.IRepository;
-using BulkyBook.Models;
+using Electronics.Models;
 using Electronics.Utility;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;

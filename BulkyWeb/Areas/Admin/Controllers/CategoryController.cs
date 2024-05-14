@@ -1,6 +1,6 @@
 ﻿using Electronics.DataAccess.Repository.IRepository;
 using BulkyBook.DataAcess.Data;
-using BulkyBook.Models;
+using Electronics.Models;
 using Electronics.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

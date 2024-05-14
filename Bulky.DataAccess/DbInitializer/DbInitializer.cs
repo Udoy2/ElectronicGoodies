@@ -1,5 +1,5 @@
 ﻿using BulkyBook.DataAcess.Data;
-using BulkyBook.Models;
+using Electronics.Models;
 using Electronics.Utility;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

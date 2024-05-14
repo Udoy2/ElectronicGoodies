@@ -22,7 +22,7 @@ namespace Electronics.DataAccess.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("BulkyBook.Models.Category", b =>
+            modelBuilder.Entity("Electronics.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -63,7 +63,7 @@ namespace Electronics.DataAccess.Migrations
                         });
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.Company", b =>
+            modelBuilder.Entity("Electronics.Models.Company", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -127,7 +127,7 @@ namespace Electronics.DataAccess.Migrations
                         });
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.OrderDetail", b =>
+            modelBuilder.Entity("Electronics.Models.OrderDetail", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -156,7 +156,7 @@ namespace Electronics.DataAccess.Migrations
                     b.ToTable("OrderDetails");
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.OrderHeader", b =>
+            modelBuilder.Entity("Electronics.Models.OrderHeader", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -232,7 +232,7 @@ namespace Electronics.DataAccess.Migrations
                     b.ToTable("OrderHeaders");
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.Product", b =>
+            modelBuilder.Entity("Electronics.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -358,7 +358,7 @@ namespace Electronics.DataAccess.Migrations
                         });
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.ProductImage", b =>
+            modelBuilder.Entity("Electronics.Models.ProductImage", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -380,7 +380,7 @@ namespace Electronics.DataAccess.Migrations
                     b.ToTable("ProductImages");
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.ShoppingCart", b =>
+            modelBuilder.Entity("Electronics.Models.ShoppingCart", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -613,7 +613,7 @@ namespace Electronics.DataAccess.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.ApplicationUser", b =>
+            modelBuilder.Entity("Electronics.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
@@ -641,15 +641,15 @@ namespace Electronics.DataAccess.Migrations
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.OrderDetail", b =>
+            modelBuilder.Entity("Electronics.Models.OrderDetail", b =>
                 {
-                    b.HasOne("BulkyBook.Models.OrderHeader", "OrderHeader")
+                    b.HasOne("Electronics.Models.OrderHeader", "OrderHeader")
                         .WithMany()
                         .HasForeignKey("OrderHeaderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BulkyBook.Models.Product", "Product")
+                    b.HasOne("Electronics.Models.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -660,9 +660,9 @@ namespace Electronics.DataAccess.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.OrderHeader", b =>
+            modelBuilder.Entity("Electronics.Models.OrderHeader", b =>
                 {
-                    b.HasOne("BulkyBook.Models.ApplicationUser", "ApplicationUser")
+                    b.HasOne("Electronics.Models.ApplicationUser", "ApplicationUser")
                         .WithMany()
                         .HasForeignKey("ApplicationUserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -671,9 +671,9 @@ namespace Electronics.DataAccess.Migrations
                     b.Navigation("ApplicationUser");
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.Product", b =>
+            modelBuilder.Entity("Electronics.Models.Product", b =>
                 {
-                    b.HasOne("BulkyBook.Models.Category", "Category")
+                    b.HasOne("Electronics.Models.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -682,9 +682,9 @@ namespace Electronics.DataAccess.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.ProductImage", b =>
+            modelBuilder.Entity("Electronics.Models.ProductImage", b =>
                 {
-                    b.HasOne("BulkyBook.Models.Product", "Product")
+                    b.HasOne("Electronics.Models.Product", "Product")
                         .WithMany("ProductImages")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -693,15 +693,15 @@ namespace Electronics.DataAccess.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.ShoppingCart", b =>
+            modelBuilder.Entity("Electronics.Models.ShoppingCart", b =>
                 {
-                    b.HasOne("BulkyBook.Models.ApplicationUser", "ApplicationUser")
+                    b.HasOne("Electronics.Models.ApplicationUser", "ApplicationUser")
                         .WithMany()
                         .HasForeignKey("ApplicationUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BulkyBook.Models.Product", "Product")
+                    b.HasOne("Electronics.Models.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -763,16 +763,16 @@ namespace Electronics.DataAccess.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.ApplicationUser", b =>
+            modelBuilder.Entity("Electronics.Models.ApplicationUser", b =>
                 {
-                    b.HasOne("BulkyBook.Models.Company", "Company")
+                    b.HasOne("Electronics.Models.Company", "Company")
                         .WithMany()
                         .HasForeignKey("CompanyId");
 
                     b.Navigation("Company");
                 });
 
-            modelBuilder.Entity("BulkyBook.Models.Product", b =>
+            modelBuilder.Entity("Electronics.Models.Product", b =>
                 {
                     b.Navigation("ProductImages");
                 });
