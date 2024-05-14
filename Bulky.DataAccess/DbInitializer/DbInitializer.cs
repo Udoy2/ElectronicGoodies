@@ -1,16 +1,12 @@
 ﻿using BulkyBook.DataAcess.Data;
 using BulkyBook.Models;
-using BulkyBook.Utility;
+using Electronics.Utility;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.DbInitializer {
-    public class DbInitializer : IDbInitializer {
+namespace Electronics.DataAccess.DbInitializer
+{
+	public class DbInitializer : IDbInitializer {
 
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;

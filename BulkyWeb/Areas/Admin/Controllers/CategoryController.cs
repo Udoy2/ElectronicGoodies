@@ -1,11 +1,11 @@
-﻿using BulkyBook.DataAccess.Repository.IRepository;
+﻿using Electronics.DataAccess.Repository.IRepository;
 using BulkyBook.DataAcess.Data;
 using BulkyBook.Models;
-using BulkyBook.Utility;
+using Electronics.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyBookWeb.Areas.Admin.Controllers
+namespace ElectronicsWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = SD.Role_Admin)]

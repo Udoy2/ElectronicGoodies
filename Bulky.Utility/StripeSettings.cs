@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.Utility {
+namespace Electronics.Utility {
 	public class StripeSettings {
 		public string SecretKey { get; set; }
 		public string PublishableKey { get; set; }

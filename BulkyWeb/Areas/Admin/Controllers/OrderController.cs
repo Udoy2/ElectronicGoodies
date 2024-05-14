@@ -1,7 +1,7 @@
-﻿using BulkyBook.DataAccess.Repository.IRepository;
+﻿using Electronics.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
 using BulkyBook.Models.ViewModels;
-using BulkyBook.Utility;
+using Electronics.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +10,7 @@ using Stripe.Checkout;
 using System.Diagnostics;
 using System.Security.Claims;
 
-namespace BulkyBookWeb.Areas.Admin.Controllers {
+namespace ElectronicsWeb.Areas.Admin.Controllers {
 	[Area("admin")]
     [Authorize]
 	public class OrderController : Controller {

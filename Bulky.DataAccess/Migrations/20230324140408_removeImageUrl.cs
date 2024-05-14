@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace BulkyBook.DataAccess.Migrations
+namespace Electronics.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class removeImageUrl : Migration

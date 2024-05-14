@@ -4,12 +4,12 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using BulkyBook.DataAccess.Repository.IRepository;
+using Electronics.DataAccess.Repository.IRepository;
 using BulkyBook.DataAcess.Data;
 using Microsoft.EntityFrameworkCore;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace BulkyBook.DataAccess.Repository
+namespace Electronics.DataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {

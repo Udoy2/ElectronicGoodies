@@ -22,11 +22,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bulky.DataAccess\BulkyBook.DataAccess.csproj" />
+    <Folder Include="wwwroot\images\product\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\images\product\" />
+    <ProjectReference Include="..\Bulky.DataAccess\Electronics.DataAccess.csproj" />
+    <ProjectReference Include="..\Bulky.Utility\Electronics.Utility.csproj" />
   </ItemGroup>
 
 </Project>

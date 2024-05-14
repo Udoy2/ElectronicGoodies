@@ -10,9 +10,9 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
-using BulkyBook.DataAccess.Repository.IRepository;
+using Electronics.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
-using BulkyBook.Utility;
+using Electronics.Utility;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -24,7 +24,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 
-namespace BulkyBookWeb.Areas.Identity.Pages.Account
+namespace ElectronicsWeb.Areas.Identity.Pages.Account
 {
     public class RegisterModel : PageModel
     {

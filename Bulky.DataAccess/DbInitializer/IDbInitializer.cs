@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.DbInitializer {
+namespace Electronics.DataAccess.DbInitializer {
     public interface IDbInitializer {
         void Initialize();
     }
