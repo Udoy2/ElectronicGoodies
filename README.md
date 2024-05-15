@@ -27,6 +27,23 @@ Welcome to the **Ecommerce Store For Electronic Goodies** repository. This proje
 ### 5. Tracking System
 - Track orders from the moment they are placed until delivery.
 - Customers receive updates on their order status.
+## Screenshots
+
+![Home Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/home_page.png)
+![Product Details](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/product_details.png)
+![Product Summary](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/summary.png)
+![Product Details](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/product_details.png)
+![Login Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/login.png)
+![Register Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/register.png)
+![Manage Account](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/manage_account.png)
+![Manage Order Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/manage_order.png)
+![Cart Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/cart.png)
+![Manage Order Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/manage_order.png)
+![Admin Product Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/admin_product.png)
+![Admin Product add Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/admin_product_add.png)
+![Admin Product edit Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/admin_product_edit.png)
+![Admin user Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/admin_manage_user.png)
+![Admin add user Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/admin_user.png)
 
 ## Getting Started
 
@@ -56,21 +73,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 Thank you for checking out the **Ecommerce Store For Electronic Goodies**. We hope you find this project useful and look forward to your contributions and feedback!
 
 
-## Screenshots
-
-![Home Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/home_page.png)
-![Product Details](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/product_details.png)
-![Product Summary](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/summary.png)
-![Product Details](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/product_details.png)
-![Login Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/login.png)
-![Register Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/register.png)
-![Manage Account](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/manage_account.png)
-![Manage Order Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/manage_order.png)
-![Cart Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/cart.png)
-![Manage Order Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/manage_order.png)
-![Admin Product Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/admin_product.png)
-![Admin Product add Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/admin_product_add.png)
-![Admin Product edit Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/admin_product_edit.png)
-![Admin user Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/admin_manage_user.png)
-![Admin add user Page](https://raw.githubusercontent.com/Udoy2/ElectronicGoodies/udoy/screenshots/admin_user.png)
 
